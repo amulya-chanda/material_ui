@@ -12,6 +12,7 @@ export const People=(props)=>{
         <Container className="people">
             {/* <Grid container className="persons"> */}
                 {/* <Grid className="person"xs={3}> */}
+                
                    <img id="face"src={props.src}></img>
                    <Typography variant="p" component='div' id="people_text">{props.heading}</Typography>
                    <Divider variant="middle" id="divider1" />

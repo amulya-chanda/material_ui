@@ -19,7 +19,7 @@
     
 }
 .contents{
-    position: absolute;
+    position: fixed;
     top: 10%;
     padding: 2% 0% 0% ;
     

@@ -1,10 +1,10 @@
-.person{
+/* .person{
     z-index: 1;
     background-color: white;
     box-shadow: 2px 8px 16px 2px rgba(0,0,0,0.2);
     border-radius: 5px;
     margin-left: 15px;
-}
+} */
 .person:hover{
     border: 1px solid #3f51b5;
     

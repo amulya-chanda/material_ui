@@ -1,0 +1,54 @@
+.footer{
+    background-color: black;
+    color: white;
+    margin-top: 8%;
+}
+.footer_contents{
+    padding: 7% 7% 10% 5%;
+}
+#fb{
+    width: 9%;
+    border: 1px solid white;
+    border-radius: 16%;
+    margin-top: 11%;
+    margin-right: 5%;
+}
+
+#footer_heading{
+    font-size: 24px;
+    font-weight: normal;
+}
+#about{
+    margin-top: 7%;
+}
+#aboutus{
+    margin-top: 7%;
+}
+#email{
+    width: 8%;
+    margin-right: 4%;
+}
+#input{
+    background-color: black;
+}
+.email{
+    margin-top: 7%;
+
+}
+.email:hover{
+    border: 1px solid blue;
+    height: 20%;
+}
+#subscribe{
+    background-color: blue;
+    width: 110%;
+    margin-top: 7%;
+    color: white;
+    padding: 5%;
+    border-radius: 10px;
+}
+.bottom_container{
+    overflow-x: hidden;
+    position:absolute;
+   left:0;
+}

@@ -1,0 +1,18 @@
+#mobiledata_img{
+    width: 60%;
+    padding: 35% 0% 20% 0%;
+}
+#description{
+    color: rgb(115, 104, 104);
+    font-family: Roboto,"Helvetica Neue",sans-serif;
+    font-size: .875rem;
+    line-height: 1.5;
+    letter-spacing: .3px;
+   
+}
+#mobile_data{
+    font-size: 0.97rem;
+}
+.mobile_data{
+    overflow: hidden;
+}

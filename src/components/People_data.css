@@ -1,0 +1,80 @@
+.person{
+    z-index: 1;
+    background-color: white;
+    box-shadow: 2px 8px 16px 2px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    margin-left: 15px;
+}
+.person:hover{
+    border: 1px solid #3f51b5;
+    
+}
+.persons{
+    padding: 3% 0% 1% 0%;
+}
+#download{
+    font-size: 44px;
+    text-align: center;
+    padding-top: 17%;
+}
+.download{
+    display: inline-block;
+    position: relative;
+}
+.download::before{
+    top: 199px;
+    right: calc(-100vw + 50% - 300px);
+    width: 100vw;
+    height: 49%;
+    content: " ";
+    display: block;
+    opacity: 0.1;
+    z-index: -1;
+    position: absolute;
+    background: #3f51b5;
+    border-top-left-radius: 300px;
+    border-bottom-left-radius: 300px;
+}
+.download::after{
+    top: 199px;
+    left: calc(-100vw + 50% - 300px);
+    width: 100vw;
+    height: 49%;
+    content: " ";
+    display: block;
+    opacity: 0.1;
+    z-index: -1;
+    position: absolute;
+    background: #3f51b5;
+    border-top-right-radius: 300px;
+    border-bottom-right-radius: 300px;
+}
+#download_text{
+    color: rgb(115, 104, 104);
+    font-family: Roboto,"Helvetica Neue",sans-serif;
+    font-size: .875rem;
+    line-height: 1.5;
+    letter-spacing: .3px;
+    width: 35%;
+    margin-left: 33%;
+    margin-top: 2%;
+}
+#play_store1{
+    border: 1px solid blue;
+    background-color: #3f51b5;
+    color: white;
+    padding: 1%;
+    width: 13%;
+    height: 50px;
+    border-radius: 40px;
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 4%;
+    margin-left: 3%;
+}
+.stores{
+display: flex !important;
+margin-left: 32% !important;
+}

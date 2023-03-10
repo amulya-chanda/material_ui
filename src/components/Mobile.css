@@ -1,0 +1,295 @@
+.mobile_container{
+    margin-top: 15%;
+    overflow-x: hidden;
+}
+#mobile_img{
+    width: 362px;
+    height: 715px;
+    margin-left: 4%;
+}
+.background
+{
+    display: inline-block;
+    position: relative;
+}
+.background::before{
+    left: 0;
+    right: 236px;
+    bottom: 0;
+    height: 80%;
+    margin: 0 180px -50px -2000px;
+    content: " ";
+    display: block;
+    opacity: 0.1;
+    z-index: -1;
+    position: absolute;
+    transform: rotate(45deg);
+    background: #3f51b5;
+    border-radius: 300px;
+    transform-origin: right bottom;
+
+}
+.background::after{
+    right: 222px;
+    width: 54%;
+    height: 36px;
+    content: " ";
+    display: block;
+    opacity: 0.75;
+    position: absolute;
+    background: radial-gradient(ellipse at center, rgba(0,0,0,0.65) -25%,rgba(0,0,0,0) 55%);
+    margin-top: 32px;
+}
+.mobile3_background
+{
+    display: inline-block;
+    position: relative;
+}
+.mobile3_background::before{
+    top: -98%;
+    left: 0;
+    right: 142px;
+    bottom: 0;
+    height: 72%;
+    margin: 0 -100px 0 -2000px;
+    content: " ";
+    display: block;
+    opacity: 0.1;
+    z-index: -1;
+    position: absolute;
+    background: #3f51b5;
+    border-radius: 300px;
+    transform-origin: right bottom;
+
+}
+.mobile3_background::after{
+    left: 6%;
+    width: 54%;
+    height: 36px;
+    content: " ";
+    display: block;
+    opacity: 0.75;
+    position: absolute;
+    background: radial-gradient(ellipse at center, rgba(0,0,0,0.65) -25%,rgba(0,0,0,0) 55%);
+    margin-top: -784px;
+    
+}
+.mobile2_background{
+    display: inline-block;
+    position: relative;
+}
+.mobile2_background::before{
+    top: 13%;
+    left: 6%;
+    right: 0;
+    height: 70%;
+    margin: 0 -300px 0 -2px;
+    content: " ";
+    display: block;
+    opacity: 0.1;
+    z-index: -1;
+    position: absolute;
+    background: #3f51b5;
+    border-radius: 300px;
+}
+.mobile2_background::after{
+    left: calc(10% + 95px);
+    width: 54%;
+    height: 36px;
+    content: " ";
+    display: block;
+    opacity: 0.75;
+    position: absolute;
+    background: radial-gradient(ellipse at center, rgba(0,0,0,0.65) -25%,rgba(0,0,0,0) 55%);
+    margin-top: 32px;
+
+}
+#music{
+    font-size: 20px;
+    color: #3f51b5;
+    margin-top: 30%;
+}
+#music_app{
+    font-size: 44px;
+    margin-top: 4%;
+}
+#mobile_text{
+    color: rgb(104, 92, 92);
+    width: 72%;
+    margin-top: 2%;
+    font-family: Roboto,"Helvetica Neue",sans-serif;
+    font-size: .875rem;
+    line-height: 1.5;
+    letter-spacing: .3px;
+}
+#mobile_button{
+    width: 30%;
+    margin-top: 6%;
+    border: 1px solid blue;
+    background-color:white;
+    border-radius: 20px;
+    padding: 2%;
+    width: 270px;
+}
+#apple_logo{
+    height: 42%;
+    width: 12%;
+    padding-right: 10%;
+}
+#android_logo{
+    padding-right: 10%;
+}
+#play_store{
+    border: 1px solid blue;
+    background-color: #3f51b5;
+    color: white;
+    padding: 1%;
+    width: 30%;
+    height: 50px;
+    border-radius: 40px;
+    margin-top: 20%;
+    margin-right: 6%;
+}
+#apple{
+    border: 1px solid blue;
+    background-color: #3f51b5;
+    color: white;
+    padding: 1%;
+    width: 30%;
+    border-radius: 40px;
+    margin-top: 20%;
+    height: 50px;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-evenly; */
+}
+
+#mobile2{
+    margin-left: 20%;
+}
+#mobile2_heading{
+    font-size: 44px ;
+    margin-top: 10%;
+}
+#mobile2_text{
+    width: 76%;
+    color: rgb(115, 104, 104);
+    font-family: Roboto,"Helvetica Neue",sans-serif;
+    font-size: .875rem;
+    line-height: 1.5;
+    letter-spacing: .3px;
+    margin-top: 3%;
+}
+.mobile_2{
+    padding-top: 100px;
+}
+.mobile_3{
+    padding-top: 100px;
+}
+#mobile3_heading{
+    font-size: 44px ;
+    margin-top: 35%;
+}
+#mobile3_text{
+    width: 80%;
+    color: rgb(115, 104, 104);
+    margin-top: 2%;
+    margin-bottom: 8%;
+    font-family: Roboto,"Helvetica Neue",sans-serif;
+    font-size: .875rem;
+    line-height: 1.5;
+    letter-spacing: .3px;
+}
+#tick{
+    padding-right: 3%;
+    width: 4%;
+}
+#mobile3_text1{
+    width: 80%;
+    color: rgb(115, 104, 104);
+    margin-top: 2%;
+    font-family: Roboto,"Helvetica Neue",sans-serif;
+    font-size: .875rem;
+    line-height: 1.5;
+    letter-spacing: .3px;
+
+}
+#mobile3_text2{
+    color: blue;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    margin-top: 10%;
+}
+#mobile4_text{
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    width: 75%;
+    color: rgb(115, 104, 104);
+    margin-top: 2%;
+    font-size: .875rem;
+    line-height: 1.5;
+    letter-spacing: .3px;
+}
+#mobile4_text1{
+    margin-top: 43%;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+#mobile4_text1:hover{
+    background-color: blue;
+    border-radius: 10px;
+    height: 47%;
+}
+#mobile4_heading{
+    margin-top: 15%;
+}
+#heading{
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 44px ;
+    text-align: center;
+    margin-top: 10%;
+}
+#text{
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    text-align: center;
+    width: 33%;
+    color:rgb(115, 104, 104);
+    margin-left: 35%;
+    margin-top: 2%;
+    font-size: .875rem;
+    margin-bottom: 6%;
+}
+.mobile4_background{
+    display: inline-block;
+    position: relative;
+}
+.mobile4_background::before{
+    top: 15%;
+    left: 69px;
+    right: 0;
+    height: 72%;
+    margin: 0 -300px 0 -50px;
+    content: " ";
+    display: block;
+    opacity: 0.1;
+    z-index: -1;
+    position: absolute;
+    background: #3f51b5;
+    border-radius: 300px;
+}
+.mobile4_background::after{
+    left: calc(10% + 115px);
+    width: 52%;
+    height: 36px;
+    content: " ";
+    display: block;
+    opacity: 0.75;
+    position: absolute;
+    background: radial-gradient(ellipse at center, rgba(0,0,0,0.65) -25%,rgba(0,0,0,0) 55%);
+    margin-top: 32px;
+}
+#androidicon{
+    margin-bottom: -4%;
+    margin-right: 9%;
+}

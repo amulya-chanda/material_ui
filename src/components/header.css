@@ -1,0 +1,72 @@
+#logo{
+    width: 12%;
+    
+}
+#button1{
+    background-color: rgb(95, 194, 95);
+    color: white;
+    padding: 1%;
+    width: 10%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.css-11b3ww9-MuiPaper-root-MuiAppBar-root{
+    background-color: black !important;
+    display: flex;
+    flex-direction: column;
+    
+}
+.contents{
+    position: absolute;
+    top: 10%;
+    padding: 2% 0% 0% ;
+    
+}
+.list{
+    list-style: none;
+    color: black;
+    display: flex;
+    position: absolute;
+   top: 17%;
+   left: 7%;
+}
+    a{
+    text-decoration: none;
+    color: black;
+    }
+.css-1oqqzyl-MuiContainer-root{
+    display: flex;
+}
+ 
+#login_button{
+    background-color: white;
+    margin-right: 0.25rem;
+    height: 40px;
+    border: 10%;
+    margin-left: 889px;
+    border: 1px solid blue;
+    border-top-left-radius: 300px ;
+    border-bottom-left-radius: 300px ;
+    width: 190px;
+    overflow: hidden;
+}
+#signup_button{
+    background-color: white;
+    border-top-right-radius: 300px ;
+    border-bottom-right-radius: 300px ;
+    padding: 0.4%;
+    border: 10%;
+    width: 200px;
+    height: 40px;
+    border: 1px solid blue;
+    overflow: hidden;
+} 
+#react_logo{
+    position: absolute;
+    
+}
+.signup{
+    overflow: hidden;
+}

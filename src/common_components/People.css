@@ -1,0 +1,48 @@
+#face{
+    width: 98px;
+    border: 1px solid blue;
+    border-radius: 50%;
+    padding: 1%;
+    position: relative;
+    bottom: 47px;
+}
+#people_text{
+    color: rgb(115, 104, 104);
+    font-family: Roboto,"Helvetica Neue",sans-serif;
+    font-size: .875rem;
+    line-height: 1.5;
+    letter-spacing: .3px;
+    padding: 0% 10% 10% 10%;
+}
+.person{
+    z-index: 1;
+    background-color: white;
+    box-shadow: 2px 8px 16px 2px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+#start{
+    font-size: 1.25rem;
+    color:#3f51b5 ;
+   
+}
+#twittericon{
+    color: darkgray;
+    margin-left: 40%;
+    width: 7%;
+}
+#divider1{
+    margin-bottom: 6%;
+}
+#name{
+    padding: 7% 0% 0% 7%;
+    font-family: Roboto,"Helvetica Neue",sans-serif;
+}
+#role{
+    padding: 0% 0% 5% 7%;
+    color: rgba(0, 0, 0, 0.54);
+    font-family: Roboto,"Helvetica Neue",sans-serif;
+    font-size: 0.83rem;
+}
+/* .people{
+    overflow: hidden;
+} */

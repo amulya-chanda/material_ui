@@ -32,7 +32,7 @@
 }
 #twittericon{
     color: darkgray;
-    margin-left: 40%;
+    margin-left: 83%;
     width: 7%;
 }
 #divider1{
@@ -43,11 +43,8 @@
     font-family: Roboto,"Helvetica Neue",sans-serif;
 }
 #role{
-    padding: 0% 0% 5% 7%;
+    padding: 1% 0% 5% 7%;
     color: rgba(0, 0, 0, 0.54);
     font-family: Roboto,"Helvetica Neue",sans-serif;
     font-size: 0.83rem;
 }
-/* .people{
-    overflow: hidden;
-} */

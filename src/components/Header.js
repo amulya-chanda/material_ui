@@ -1,16 +1,11 @@
-import React from "react";
+import React,{useState} from "react";
 import "./header.css";
 import { AppBar,Tabs,Tab,Toolbar } from "@mui/material";
 import { Container,  } from "@mui/system";
 import page_logo from "../assets/page_logo.svg";
 import react_logo from "../assets/react_logo.svg";
-//import styled from "styled-components";
 export const Header=()=>{
-    // const header1=styled('Toolbar')({
-    //     backgroundColor:"black",
-    //     display:"flex",
-    //     flexDirection:"column",
-    // });
+    
     return(
         <>
         <AppBar>

@@ -30,7 +30,6 @@ export const Footer=()=>
                     <TwitterIcon id="fb"/>
                 <InstagramIcon id="fb"/>
                 <LinkedInIcon id="fb"/>
-                    {/* <img id="teitter"src={twitter} alt="pic"></img> */}
                 </Grid>
                 <Grid xs={3}>
                 <Typography variant="h6"id="footer_heading" component={'div'}>Company</Typography>

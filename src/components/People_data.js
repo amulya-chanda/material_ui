@@ -27,14 +27,6 @@ export const Persons=()=>{
             </Grid>
             </Grid> 
         </Container>
-        {/* <Container className="download">
-            <Typography id="download"variant="h3" component='div'>Download Now !</Typography>
-            <Typography id="download_text"variant="p" component='div'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</Typography>
-            <Container className="stores">
-            <button id="play_store1" variant="contained"component={'div'} ><AndroidIcon/>Play Store</button>
-            <button id="play_store1" variant="contained"component={'div'} ><AppleIcon/>App Store</button>
-            </Container>
-        </Container> */}
         </>
     )
 }

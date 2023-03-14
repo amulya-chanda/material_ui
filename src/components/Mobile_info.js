@@ -30,14 +30,6 @@ export const Mobile_info=()=>{
                     <Mobile_data src={love1} heading="Browser Compatibility" description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr"/>
                     </Grid>
         </Grid>
-        {/* <Container className="mobile_info"> */}
-            {/* <Grid container className="contents">
-                imggee
-                 <Grid xs={2}>
-                    <Mobile_data src={device} heading="Use on Any Device" description="Lorem ipsum dolor sit amet, consetetur sadipscing elitr" />
-                </Grid> 
-            </Grid> */}
-        {/* </Container> */}
         </>
     )
 }

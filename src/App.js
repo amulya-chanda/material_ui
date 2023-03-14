@@ -1,36 +1,19 @@
-import React from 'react';
-import { Header } from './components/Header';
-import { Mobile } from './components/Mobile';
-import { Footer } from './components/Footer';
-import {Card} from "./components/Card";
-import {Persons} from "./components/People_data";
+import React,{useState} from 'react';
+import Main from './Main';
 import './App.css';
-import Carousel from '@itseasy21/react-elastic-carousel';
-import {createTheme,ThemeProvider,CssBaseline} from "@mui/material";
+import ThemeContext, {themes} from "./components/ThemeContext";
 function App() {
-  const theme = createTheme({
-    palette: {
-      mode: "light",
-      },
-    });
+  const [theme,settheme]=useState(themes.light)
+  const Toggletheme=()=>{
+    theme===themes.light?settheme(themes.dark):settheme(themes.light);
+  }
     return(
       <>
-      <ThemeProvider theme={theme}>
-      <CssBaseline />
-      
-    
-      <Header/>
-      <Mobile/>
-      <Card/>
-      <Carousel>
-      <Persons/>
-      <Persons/>
-      <Persons/>
-      </Carousel>
-      <Footer/>
-      </ThemeProvider>
+      <button id="change_theme"onClick={Toggletheme}>change theme</button>
+      <ThemeContext.Provider value={theme}>
+      <Main/>
+      </ThemeContext.Provider>
       </>
     )
 }
-
 export default App;

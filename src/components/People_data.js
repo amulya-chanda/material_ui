@@ -9,7 +9,9 @@ export const Persons=()=>{
     return(
         <>
         <Container className="persons">
+        
             <Grid container className="persons">
+               
                 <Grid xs={2.8} className="person">
 
             <People src={person} heading="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore" name="John Doe" role="Product Manager"/>
@@ -25,6 +27,7 @@ export const Persons=()=>{
 
             <People src={face3} heading="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore" name="Jessica Hiche" role="Product Manager"/>
             </Grid>
+            
             </Grid> 
         </Container>
         </>
